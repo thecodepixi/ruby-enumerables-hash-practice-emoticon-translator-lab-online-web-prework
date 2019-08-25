@@ -8,7 +8,6 @@ def load_library(lib)
   
   emotions = {get_meaning: {}, get_emoticon: {}}
   
-  emotions 
   
 end
 
