@@ -12,7 +12,10 @@ def load_library(lib)
     binding.pry 
     emotions[:get_meaning] = icons[1]
     emotions[:get_emoticon] = icons[0]
+  end
+  
   emotions 
+  
 end
 
 def get_japanese_emoticon
