@@ -13,6 +13,8 @@ def load_library(lib)
     emotions[:get_emoticon][icons[0]] = icons[1] 
   end
   
+  binding.pry 
+  
   emotions 
   
 end
