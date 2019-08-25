@@ -26,7 +26,7 @@ def get_japanese_emoticon(lib, emoticon)
   japanese_icon = library[:get_emoticon][emoticon]
   japanese_icon 
   else
-    puts "Sorry, I don't recognize that emoticon" 
+    puts "Sorry, that emoticon was not found" 
   end
   
 end
