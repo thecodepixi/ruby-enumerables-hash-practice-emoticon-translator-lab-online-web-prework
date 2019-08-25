@@ -22,7 +22,7 @@ def get_japanese_emoticon(lib, emoticon)
   
   library = load_library(lib)
   
-  japense_icon = library[:get_emoticon][emoticon]
+  japanese_icon = library[:get_emoticon][emoticon]
   
   japanese_icon 
   
