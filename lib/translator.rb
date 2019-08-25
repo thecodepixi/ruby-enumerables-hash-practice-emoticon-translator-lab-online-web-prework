@@ -22,8 +22,7 @@ def get_japanese_emoticon(lib, emoticon)
   
   library = load_library(lib)
   
-  if library[:get_emoticon][emoticon]
-    binding.pry 
+  if library[:get_emoticon].has_key?(emoticon) 
   japanese_icon = library[:get_emoticon][emoticon]
   japanese_icon 
   else
