@@ -36,7 +36,7 @@ def get_english_meaning(lib, emoticon)
   
   library = load_library(lib)
   
-  binding.pry 
   english_meaning = library[:get_meaning][emoticon]
+  englsh_meaning 
   
 end
