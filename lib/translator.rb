@@ -22,8 +22,9 @@ def get_japanese_emoticon(lib, emoticon)
   
   library = load_library(lib)
   
-  binding.pry 
   japense_icon = library[:get_emoticon][emoticon]
+  
+  japanese_icon 
   
 end
 
