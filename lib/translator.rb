@@ -9,8 +9,8 @@ def load_library(lib)
   emotions = {get_meaning: {}, get_emoticon: {}}
   
   emoticons.each do |meaning, icons|
-    emotions[:get_meaning] = icons[2]
-  
+    emotions[:get_meaning] = icons[1]
+    emotions[:get_emoticon] = icons[0]
   emotions 
 end
 
